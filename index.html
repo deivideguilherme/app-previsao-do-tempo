@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js"></script>
+    <title>App Previsão do Tempo</title>
+  </head>
+  <body>
+    <div class="container-main">
+      <input class="input-city" placeholder="Digite o nome da cidade" />
+      <button onclick="clickButton()">
+        <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" />
+      </button>
+
+      <div class="container-temp">
+        <h2 class="city">Tempo em Rio de Janeiro</h2>
+        <p class="temp">28°C</p>
+
+        <div class="container-description">
+          <img
+            class="icon-temp"
+            src="https://openweathermap.org/img/wn/04n.png"
+          />
+          <p class="weather-description">Nuvens Dispersas</p>
+        </div>
+
+        <p class="air-humidity">Umidade do ar: 70%</p>
+      </div>
+    </div>
+  </body>
+</html>
